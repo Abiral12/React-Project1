@@ -1,13 +1,11 @@
-export const getItem = () =>{
+export const getItem = (key) =>{
 
     if(!key){
         return;
     }
     const value = localStorage.getItem(key)
-    if(!value){
-        alert("No any such values")
-    }
-    else{
+
+    {
         return value
     } 
 }
